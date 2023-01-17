@@ -57,7 +57,6 @@ export default function Studio() {
 
           <div className="guitar-amps">
             <h3>Guitar Amps</h3>
-
             <ul>
               <li>1974 Super Reverb</li>
               <li>Marshall 1986 Gold Face Jubilee</li>
