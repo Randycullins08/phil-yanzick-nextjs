@@ -54,10 +54,6 @@ export default function StudioCarousel({ images }) {
                       icon={faTimes}
                       onClick={() => setIsOpen((prev) => !prev)}
                     />
-                    {/* <i
-                      className="fas fa-times"
-                      onClick={() => setIsOpen((prev) => !prev)}
-                    /> */}
                   </div>
                 </Modal>
               ) : null}
