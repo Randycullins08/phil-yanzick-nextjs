@@ -1,0 +1,42 @@
+.hero-section-container {
+  background-image: url("/img/drums.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 5px solid black;
+
+  .hero-section-header {
+    color: white;
+    text-align: center;
+
+    z-index: 1;
+    h1 {
+      font-size: 8em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section-container {
+    background-attachment: inherit;
+    height: 30rem;
+
+    .hero-section-header {
+      h1 {
+        font-size: 3.5em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+    }
+  }
+}
