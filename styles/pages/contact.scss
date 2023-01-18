@@ -51,6 +51,8 @@
             border-radius: 5px;
             font-size: 1em;
             transition-duration: 0.2s;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+              rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
             &:hover {
               background-color: black;
