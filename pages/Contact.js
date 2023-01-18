@@ -13,7 +13,7 @@ export default function Contact() {
 
         <div className="contact-content">
           <div className="image-wrapper">
-            <img src="/img/phil2.jpeg" alt="phil" />
+            <img src="/img/voodoo-16.jpg" alt="Lenny" />
           </div>
 
           <div className="form-wrapper">

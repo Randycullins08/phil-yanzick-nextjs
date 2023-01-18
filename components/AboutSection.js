@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <div className="about-section-container">
       <div className="image-wrapper">
-        <img src="/img/phil.jpeg" alt="phil" />
+        <img src="/img/voodoo.jpg" alt="phil" />
       </div>
 
       <div className="about-content-wrapper">
