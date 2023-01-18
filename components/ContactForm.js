@@ -33,6 +33,9 @@ export default function ContactForm() {
 
     if (res.status === 200) {
       setStatus("Submit");
+      setName("");
+      setEmail("");
+      setMessage("");
     }
   };
 
@@ -44,6 +47,7 @@ export default function ContactForm() {
           id="from_name"
           name="from_name"
           placeholder="Enter Your Name"
+          value={name}
           onChange={(e) => setName(e.target.value)}
           required
         />
@@ -55,6 +59,7 @@ export default function ContactForm() {
           id="email"
           name="email"
           placeholder="Enter Your Email"
+          value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
@@ -66,6 +71,7 @@ export default function ContactForm() {
           id="message"
           rows={10}
           placeholder="Enter Your Message"
+          value={message}
           onChange={(e) => setMessage(e.target.value)}
           required
         />
