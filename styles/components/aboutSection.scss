@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   border-top: 5px solid black;
-  // margin: 1em;
 
   .image-wrapper {
     display: flex;
@@ -59,6 +58,7 @@
     .image-wrapper {
       height: 30em;
       border-bottom: 5px solid black;
+      margin-left: 0;
     }
 
     .about-content-wrapper {
