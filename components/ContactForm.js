@@ -1,14 +1,18 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 
 export default function ContactForm() {
   const [status, setStatus] = useState("Submit");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [isSending, setIsSending] = useState(false);
 
   const sendEmail = async (e) => {
     e.preventDefault();
-    setStatus("Sending...");
+    setIsSending(true);
 
     const res = await fetch("/api/email", {
       method: "POST",
@@ -32,10 +36,17 @@ export default function ContactForm() {
     }
 
     if (res.status === 200) {
-      setStatus("Submit");
-      setName("");
-      setEmail("");
-      setMessage("");
+      setTimeout(() => {
+        setStatus("Email has been sent!");
+        setIsSending(false);
+      }, 2000);
+
+      setTimeout(() => {
+        setName("");
+        setEmail("");
+        setMessage("");
+        setStatus("Submit");
+      }, 4000);
     }
   };
 
@@ -77,7 +88,13 @@ export default function ContactForm() {
         />
       </div>
       <div className="submit-button">
-        <button type="submit">{status}</button>
+        <button type="submit" disabled={isSending}>
+          {isSending ? (
+            <FontAwesomeIcon icon={faSpinner} className="fa-spin" />
+          ) : (
+            status
+          )}
+        </button>
       </div>
     </form>
   );
