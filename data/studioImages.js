@@ -59,35 +59,14 @@ export const studioImages = [
     image: "/img/voodoo-13.jpg",
     alt: "skeleton",
   },
+  {
+    id: 12,
+    image: "/img/voodoo-18.jpg",
+    alt: "apms",
+  },
+  {
+    id: 13,
+    image: "/img/voodoo-16.jpg",
+    alt: "dog",
+  },
 ];
-//   {
-//     id: 1,
-//     image: "/img/guitars.jpeg",
-//     alt: "guitars",
-//   },
-//   {
-//     id: 2,
-//     image: "/img/piano.jpeg",
-//     alt: "piano",
-//   },
-//   {
-//     id: 3,
-//     image: "/img/mics.jpeg",
-//     alt: "mics",
-//   },
-//   {
-//     id: 4,
-//     image: "/img/setup.jpeg",
-//     alt: "setup",
-//   },
-//   {
-//     id: 5,
-//     image: "/img/studio.jpeg",
-//     alt: "studio",
-//   },
-//   {
-//     id: 6,
-//     image: "/img/amps.jpeg",
-//     alt: "amps",
-//   },
-// ];
