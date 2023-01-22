@@ -14,7 +14,7 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSending(true);
 
-    const res = await fetch("/api/email", {
+    await fetch("/api/email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -24,30 +24,31 @@ export default function ContactForm() {
         email,
         message,
       }),
-    });
+    })
+      .then((res) => {
+        if (res.status === 200) {
+          setTimeout(() => {
+            setStatus("Email has been sent!");
+            setIsSending(false);
+          }, 2000);
 
-    const { error } = await res.json();
-    if (error) {
-      console.log(error);
-      setTimeout(() => {
-        setStatus("Error Sending Email");
-      }, 1000);
-      return;
-    }
-
-    if (res.status === 200) {
-      setTimeout(() => {
-        setStatus("Email has been sent!");
-        setIsSending(false);
-      }, 2000);
-
-      setTimeout(() => {
-        setName("");
-        setEmail("");
-        setMessage("");
-        setStatus("Submit");
-      }, 4000);
-    }
+          setTimeout(() => {
+            setName("");
+            setEmail("");
+            setMessage("");
+            setStatus("Submit");
+          }, 4000);
+        }
+      })
+      .catch((err) => {
+        if (err) {
+          console.log(err);
+          setTimeout(() => {
+            setStatus("Error Sending Email");
+          }, 1000);
+          return;
+        }
+      });
   };
 
   return (
