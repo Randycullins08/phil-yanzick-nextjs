@@ -65,6 +65,12 @@ export default function Studio() {
               <li>Morgan 30/800</li>
               <li>Mesa Big Block 750</li>
               <li>Darkglass Micro Tube 900</li>
+              <li>Mesa Boogie 4x12 Cab with V30s</li>
+              <li>Mesa Boogie 4x12 Bass Cab</li>
+              <li>Marshall 4x12 JCM 800 Lead 1960</li>
+              <li>Dr Z 2x12 Z-Best Cab (closed back)</li>
+              <li>Custom 4x10 Ported Guitar Cab </li>
+              <li>Custom 2x12 with Greenbacks (open back)</li>
             </ul>
           </div>
 
@@ -83,7 +89,6 @@ export default function Studio() {
               </li>
               <li>Fender All Parts P Bass With 62 Reissue Pickups</li>
               <li>Fender Mexican Made Mustang</li>
-              <li>Martin d15</li>
               <li>Gibson 1964 LGO</li>
               <li>1991 Gibson EB-Bass</li>
               <li>2022 Fender Telecaster Deluxe MIM</li>
