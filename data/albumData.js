@@ -73,6 +73,18 @@ export const albumData = [
   },
   {
     id: 6,
+    bandName: "BWB Artist",
+    work: "Guitars | Bass | Drums | Keys | Engineered | Mixed | Mastered",
+    player: (
+      <iframe
+        title="BWB Artist"
+        style={{ border: "0", width: "350px", height: "470px" }}
+        src="https://open.spotify.com/embed/album/0AVeb7Bm1TcY19g4Y1xW7x?utm_source=generator"
+      />
+    ),
+  },
+  {
+    id: 7,
     bandName: "Chairea",
     work: "Engineered | Mixed",
     player: (
@@ -84,7 +96,7 @@ export const albumData = [
     ),
   },
   {
-    id: 7,
+    id: 8,
     bandName: "Treasure State",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -96,7 +108,7 @@ export const albumData = [
     ),
   },
   {
-    id: 8,
+    id: 9,
     bandName: "Anaconda Vise",
     work: "Live Recorded | Mixed | Mastered",
     player: (
@@ -108,7 +120,7 @@ export const albumData = [
     ),
   },
   {
-    id: 9,
+    id: 10,
     bandName: "NVM",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -120,7 +132,7 @@ export const albumData = [
     ),
   },
   {
-    id: 10,
+    id: 11,
     bandName: "Gray Joy",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -132,7 +144,7 @@ export const albumData = [
     ),
   },
   {
-    id: 11,
+    id: 12,
     bandName: "Dragged Out",
     work: "Engineered",
     player: (
@@ -144,7 +156,7 @@ export const albumData = [
     ),
   },
   {
-    id: 12,
+    id: 13,
     bandName: "Sky Drftr",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -156,7 +168,7 @@ export const albumData = [
     ),
   },
   {
-    id: 13,
+    id: 14,
     bandName: "Tom Russell",
     work: "Vocal Engineered",
     player: (
@@ -168,7 +180,7 @@ export const albumData = [
     ),
   },
   {
-    id: 14,
+    id: 15,
     bandName: "Hubba Hubba",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -180,7 +192,7 @@ export const albumData = [
     ),
   },
   {
-    id: 15,
+    id: 16,
     bandName: "Hubba Hubba",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -192,7 +204,7 @@ export const albumData = [
     ),
   },
   {
-    id: 16,
+    id: 17,
     bandName: "Tiny Iota",
     work: "Mixed | Mastered",
     player: (
