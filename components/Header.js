@@ -14,6 +14,12 @@ export default function Header() {
     <>
       <Head>
         <title>Phillip Yanzick</title>
+        <meta
+          name="description"
+          content="Hey, I’m Phillip!
+          I’m a music and sound producer operating from the great state of Montana"
+        />
+        <meta property="og:image" content="/img/voodoo.jpg" />
       </Head>
       <div className="header-container">
         <div className="header-title">
