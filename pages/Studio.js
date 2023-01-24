@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import StudioCarousel from "../components/StudioCarousel";
@@ -132,6 +133,11 @@ export default function Studio() {
               <li>A Custom Zildjian 19” Thin Crash</li>
               <li>A Custom Zildjian 14” New Beat Hi Hats</li>
             </ul>
+          </div>
+
+          <div className="inspiration">
+            <h3>Inspiration</h3>
+            <Link href="/Inspiration">Puffco Peak</Link>
           </div>
         </div>
       </div>
