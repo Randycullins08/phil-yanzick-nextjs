@@ -14,10 +14,17 @@ export default function Header() {
     <>
       <Head>
         <title>Phillip Yanzick</title>
+        <meta property="og:title" content="Phillip Yanzick" key="desc" />
         <meta
           name="description"
           content="Hey, I’m Phillip!
-          I’m a music and sound producer operating from the great state of Montana"
+          I’m a music and sound producer operating from the great state of Montana!"
+          key="desc"
+        />
+        <meta
+          property="og:description"
+          content="Hey, I’m Phillip!
+          I’m a music and sound producer operating from the great state of Montana!"
         />
         <meta property="og:image" content="/img/voodoo.jpg" />
       </Head>
