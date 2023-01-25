@@ -14,19 +14,29 @@ export default function Header() {
     <>
       <Head>
         <title>Phillip Yanzick</title>
-        <meta property="og:title" content="Phillip Yanzick" key="desc" />
+        <meta name="title" content="Phillip Yanzick" />
         <meta
           name="description"
-          content="Hey, I’m Phillip!
-          I’m a music and sound producer operating from the great state of Montana!"
-          key="desc"
+          content="Hey, I’m Phillip! I’m a music and sound producer operating from the great state of Montana!"
         />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.philyanzick.com/" />
+        <meta property="og:title" content="Phillip Yanzick" />
         <meta
           property="og:description"
-          content="Hey, I’m Phillip!
-          I’m a music and sound producer operating from the great state of Montana!"
+          content="Hey, I’m Phillip! I’m a music and sound producer operating from the great state of Montana!"
         />
         <meta property="og:image" content="/img/voodoo.jpg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.philyanzick.com/" />
+        <meta property="twitter:title" content="Phillip Yanzick" />
+        <meta
+          property="twitter:description"
+          content="Hey, I’m Phillip! I’m a music and sound producer operating from the great state of Montana!"
+        />
+        <meta property="twitter:image" content="/img/voodoo.jpg" />
       </Head>
       <div className="header-container">
         <div className="header-title">
