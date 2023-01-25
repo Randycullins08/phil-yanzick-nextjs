@@ -123,7 +123,7 @@ export default function Studio() {
               <li>Sjc Brass 14×6.5</li>
               <li>Pork Pie Acrylic 14×5</li>
               <li>Mapex Mars Birch Kit</li>
-              <li>K Series Zildjian 20” Ride x2</li>
+              <li>K Series Zildjian 20” Ride</li>
               <li>K Dry Series Zildjian 14” Hi Hats</li>
               <li>A Custom Zildjian 20” Ride</li>
               <li>Sabian 24” Thin Ride</li>
@@ -131,6 +131,7 @@ export default function Studio() {
               <li>Zildjian A 24” Ping Ride</li>
               <li>A Custom Zildjian 17” Crash</li>
               <li>A Custom Zildjian 19” Thin Crash</li>
+              <li>K Custom 19” Sweet Crash</li>
               <li>A Custom Zildjian 14” New Beat Hi Hats</li>
             </ul>
           </div>
