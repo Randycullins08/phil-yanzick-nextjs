@@ -50,7 +50,7 @@ export const albumData = [
   {
     id: 4,
     bandName: "Hey ILY",
-    work: "Engineered | Drums | Mixed",
+    work: "Engineered Drums | Mixed",
     player: (
       <iframe
         title="Hey ILY"
