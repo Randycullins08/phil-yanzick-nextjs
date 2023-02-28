@@ -60,6 +60,7 @@ export default function Studio() {
             <h3>Guitar Amps</h3>
 
             <ul>
+              <li>Ampeg Super Jet SJ12T</li>
               <li>1974 Super Reverb</li>
               <li>Marshall 1986 Gold Face Jubilee</li>
               <li>Dr Z Maz 18</li>
@@ -118,6 +119,10 @@ export default function Studio() {
             <h3>Drum Gear</h3>
 
             <ul>
+              <li>
+                Tama Star Classic 22"x20" kick, 10", 12", 14" toms. 14" x 5"
+                snare
+              </li>
               <li>1964 Ludwig Maple Marching Snare 15×12</li>
               <li>Tama SLP Steal 14×8</li>
               <li>Sjc Brass 14×6.5</li>
