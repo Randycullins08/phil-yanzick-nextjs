@@ -1,6 +1,18 @@
 export const albumData = [
   {
     id: 0,
+    bandName: "Treasure State",
+    work: "Engineered | Mixed | Mastered",
+    player: (
+      <iframe
+        title="NVM"
+        style={{ border: "0", width: "350px", height: "470px" }}
+        src="https://open.spotify.com/embed/album/3vtjJEiHog0OcDxIua3Lsz?utm_source=generator"
+      />
+    ),
+  },
+  {
+    id: 0,
     bandName: "NVM",
     work: "Engineered",
     player: (
