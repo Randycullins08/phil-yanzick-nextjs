@@ -6,7 +6,17 @@
   flex-direction: column;
   border-top: 5px solid black;
 
-  a {
-    padding: 0.5em;
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    svg {
+      font-size: 2.2em;
+    }
+
+    a {
+      padding: 0.5em;
+    }
   }
 }
