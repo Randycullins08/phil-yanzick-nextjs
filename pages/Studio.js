@@ -62,7 +62,7 @@ export default function Studio() {
             <ul>
               <li>Ampeg Super Jet SJ12T</li>
               <li>1974 Super Reverb</li>
-              <li>Marshall 1986 Gold Face Jubilee</li>
+              <li>Marshall 1988 Gold Face Jubilee</li>
               <li>Dr Z Maz 18</li>
               <li>Morgan 30/800</li>
               <li>Mesa Big Block 750</li>
