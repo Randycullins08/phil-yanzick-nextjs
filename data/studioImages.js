@@ -1,7 +1,7 @@
 export const studioImages = [
   {
     id: 0,
-    image: "/img/IMG_5273.jpg",
+    image: "/img/AStudioImage.jpg",
     alt: "studio",
   },
   {
