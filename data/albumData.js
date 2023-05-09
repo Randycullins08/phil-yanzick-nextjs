@@ -1,7 +1,7 @@
 export const albumData = [
   {
     id: 0,
-    bandName: "Perro De Monte",
+    bandName: "Clay Secrets",
     work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
