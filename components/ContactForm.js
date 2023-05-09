@@ -27,17 +27,12 @@ export default function ContactForm() {
     })
       .then((res) => {
         if (res.status === 200) {
-          setTimeout(() => {
-            setStatus("Email has been sent!");
-            setIsSending(false);
-          }, 2000);
-
-          setTimeout(() => {
-            setName("");
-            setEmail("");
-            setMessage("");
-            setStatus("Submit");
-          }, 4000);
+          setStatus("Email has been sent!");
+          setIsSending(false);
+          setName("");
+          setEmail("");
+          setMessage("");
+          setStatus("Submit");
         }
       })
       .catch((err) => {
