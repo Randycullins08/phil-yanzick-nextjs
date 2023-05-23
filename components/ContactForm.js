@@ -38,9 +38,7 @@ export default function ContactForm() {
       .catch((err) => {
         if (err) {
           console.log(err);
-          setTimeout(() => {
-            setStatus("Error Sending Email");
-          }, 1000);
+          setStatus("Error Sending Email");
           return;
         }
       });
