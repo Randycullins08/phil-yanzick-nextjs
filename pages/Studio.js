@@ -41,6 +41,7 @@ export default function Studio() {
 
             <ul>
               <li>STAM u87</li>
+              <li>Royer R-121 Ribbon Mic</li>
               <li>Neumann tlm102 Stereo Pair</li>
               <li>Sennheiser 421 x2</li>
               <li>Shure 57 x7</li>
@@ -112,6 +113,7 @@ export default function Studio() {
               <li>Strymon Flint Reverb and Tremolo</li>
               <li>Dispatch Master Delay/Reverb</li>
               <li>Darkglass b3k v2</li>
+              <li>Waza Dimension C Chorus</li>
             </ul>
           </div>
 
@@ -138,6 +140,8 @@ export default function Studio() {
               <li>A Custom Zildjian 19” Thin Crash</li>
               <li>K Custom 19” Sweet Crash</li>
               <li>A Custom Zildjian 14” New Beat Hi Hats</li>
+              <li>14" A Custom Zildjian Hi Hats</li>
+              <li>20" 1980 A Zildjian</li>
             </ul>
           </div>
 
