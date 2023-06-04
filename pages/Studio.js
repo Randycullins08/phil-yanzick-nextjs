@@ -114,6 +114,7 @@ export default function Studio() {
               <li>Dispatch Master Delay/Reverb</li>
               <li>Darkglass b3k v2</li>
               <li>Waza Dimension C Chorus</li>
+              <li>Ibanez TS808 (with the fancy chip)</li>
             </ul>
           </div>
 
