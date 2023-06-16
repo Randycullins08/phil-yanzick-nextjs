@@ -115,6 +115,7 @@ export default function Studio() {
               <li>Darkglass b3k v2</li>
               <li>Waza Dimension C Chorus</li>
               <li>Ibanez TS808 (with the fancy chip)</li>
+              <li>Big Muff Fuzz</li>
             </ul>
           </div>
 
