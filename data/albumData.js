@@ -43,13 +43,7 @@ export const albumData = [
       <iframe
         style={{ border: "0", width: "350px", height: "470px" }}
         src="https://bandcamp.com/EmbeddedPlayer/album=804624574/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-        seamless
-      >
-        <a href="https://fkinwow.bandcamp.com/album/i-am-not-sure-what-to-call-this-collection-of-songs-so-i-think-ill-call-it-ep1">
-          I am not sure what to call this collection of songs so I think ill
-          call it EP1 by FkinWOW
-        </a>
-      </iframe>
+      ></iframe>
     ),
   },
   {
