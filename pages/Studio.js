@@ -27,6 +27,7 @@ export default function Studio() {
 
             <ul>
               <li>DAW: protools 12</li>
+              <li>Focusrite ISA Dual Mono</li>
               <li>Stamchild (Fairchild clone)</li>
               <li>Distressor</li>
               <li>1176 warm</li>
@@ -50,10 +51,13 @@ export default function Studio() {
               <li>Shure Beta 52</li>
               <li>Shure sm7b</li>
               <li>Beyerdynamic m88 tg</li>
-              <li>Audio tech At4040</li>
+              <li>Audio tech At4040 Sterio Pair</li>
               <li>Electro Voice re10</li>
               <li>Royer 121 Russian Clone Stereo Pair</li>
               <li>Golden age FC1 Stereo Pair</li>
+              <li>Telefunken M81</li>
+              <li>Sennheiser e835 x4</li>
+              <li>Cloudlifter X2</li>
             </ul>
           </div>
 
@@ -74,6 +78,8 @@ export default function Studio() {
               <li>Dr Z 2x12 Z-Best Cab (closed back)</li>
               <li>Custom 4x10 Ported Guitar Cab </li>
               <li>Custom 2x12 with Greenbacks (open back)</li>
+              <li>1964 Fender Bassman With Matching 2x12 Cab</li>
+              <li>2x12 1974 Creamback 25 Watt</li>
             </ul>
           </div>
 
@@ -95,6 +101,7 @@ export default function Studio() {
               <li>Gibson 1964 LGO</li>
               <li>1991 Gibson EB-Bass</li>
               <li>2022 Fender Telecaster Deluxe MIM</li>
+              <li>2010 Epiphone casino semi hollow</li>
             </ul>
           </div>
 
@@ -116,6 +123,10 @@ export default function Studio() {
               <li>Waza Dimension C Chorus</li>
               <li>Ibanez TS808 (with the fancy chip)</li>
               <li>Big Muff Fuzz</li>
+              <li>Earthquaker Devices Plumes</li>
+              <li>Octave Multiplexor</li>
+              <li>Micro POG</li>
+              <li>Strymon Isolated Power Supplies X2</li>
             </ul>
           </div>
 
@@ -129,7 +140,7 @@ export default function Studio() {
               </li>
               <li>1964 Ludwig Maple Marching Snare 15×12</li>
               <li>Tama SLP Steal 14×8</li>
-              <li>Sjc Brass 14×6.5</li>
+              <li>Sjc Brass Snare 14×6.5</li>
               <li>Pork Pie Acrylic 14×5</li>
               <li>Mapex Mars Birch Kit</li>
               <li>K Series Zildjian 20” Ride</li>
@@ -144,6 +155,7 @@ export default function Studio() {
               <li>A Custom Zildjian 14” New Beat Hi Hats</li>
               <li>14" A Custom Zildjian Hi Hats</li>
               <li>20" 1980 A Zildjian</li>
+              <li>C&C dirty copper over steel Snare 14”x5”</li>
             </ul>
           </div>
 
