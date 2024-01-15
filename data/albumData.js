@@ -2,7 +2,7 @@ export const albumData = [
   {
     id: 0,
     bandName: "Stino & The Cancer Season",
-    work: "Mixed | Mastered",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="Quittin' Drinkin'"
@@ -38,7 +38,7 @@ export const albumData = [
   {
     id: 3,
     bandName: "Patrick Lang",
-    work: "Engineered | Mixed",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="Screaming Fire"
