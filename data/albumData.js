@@ -5,14 +5,26 @@ export const albumData = [
     work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
-        title="Quittin' Drinkin'"
+        title="Stino & The Cancer Season"
         style={{ border: "0", width: "350px", height: "470px" }}
-        src="https://open.spotify.com/embed/album/1UcfOkRmw4J0y1SUheWc7g?utm_source=generator"
+        src="https://open.spotify.com/embed/album/2lPUVrhiaCbXEQYHF6bWiK?utm_source=generator"
       />
     ),
   },
   {
     id: 1,
+    bandName: "Patrick Lang",
+    work: "Engineered | Mixed | Mastered",
+    player: (
+      <iframe
+        title="Illinois"
+        style={{ border: "0", width: "350px", height: "470px" }}
+        src="https://open.spotify.com/embed/album/1ZCwpYQIziPwcb30UYKl9A?utm_source=generator"
+      />
+    ),
+  },
+  {
+    id: 2,
     bandName: "Sumara",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -24,7 +36,7 @@ export const albumData = [
     ),
   },
   {
-    id: 2,
+    id: 3,
     bandName: "At Nadir",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -36,7 +48,7 @@ export const albumData = [
     ),
   },
   {
-    id: 3,
+    id: 4,
     bandName: "Patrick Lang",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -48,7 +60,7 @@ export const albumData = [
     ),
   },
   {
-    id: 4,
+    id: 5,
     bandName: "Kay",
     work: "Mixed | Mastered",
     player: (
@@ -60,7 +72,7 @@ export const albumData = [
     ),
   },
   {
-    id: 5,
+    id: 6,
     bandName: "Sky Drftr",
     work: "Mixed | Mastered",
     player: (
@@ -72,7 +84,7 @@ export const albumData = [
     ),
   },
   {
-    id: 6,
+    id: 7,
     bandName: "Fly Over States",
     work: "Engineered",
     player: (
@@ -84,7 +96,7 @@ export const albumData = [
     ),
   },
   {
-    id: 7,
+    id: 8,
     bandName: "Hibernator",
     work: "Engineered",
     player: (
@@ -96,7 +108,7 @@ export const albumData = [
     ),
   },
   {
-    id: 8,
+    id: 9,
     bandName: "Treasure State",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -108,7 +120,7 @@ export const albumData = [
     ),
   },
   {
-    id: 9,
+    id: 10,
     bandName: "Clay Secrets",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -120,7 +132,7 @@ export const albumData = [
     ),
   },
   {
-    id: 10,
+    id: 11,
     bandName: "FkinWOW",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -131,7 +143,7 @@ export const albumData = [
     ),
   },
   {
-    id: 11,
+    id: 12,
     bandName: "Hibernator",
     work: "Engineered",
     player: (
@@ -143,7 +155,7 @@ export const albumData = [
     ),
   },
   {
-    id: 12,
+    id: 13,
     bandName: "Three Penny Riot",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -155,7 +167,7 @@ export const albumData = [
     ),
   },
   {
-    id: 13,
+    id: 14,
     bandName: "Treasure State",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -167,7 +179,7 @@ export const albumData = [
     ),
   },
   {
-    id: 14,
+    id: 15,
     bandName: "NVM",
     work: "Engineered",
     player: (
@@ -179,7 +191,7 @@ export const albumData = [
     ),
   },
   {
-    id: 15,
+    id: 16,
     bandName: "Hibernator",
     work: "Engineered",
     player: (
@@ -191,7 +203,7 @@ export const albumData = [
     ),
   },
   {
-    id: 16,
+    id: 17,
     bandName: "Hibernator",
     work: "Engineered",
     player: (
@@ -203,7 +215,7 @@ export const albumData = [
     ),
   },
   {
-    id: 17,
+    id: 18,
     bandName: "NVM",
     work: "Engineered",
     player: (
@@ -215,7 +227,7 @@ export const albumData = [
     ),
   },
   {
-    id: 18,
+    id: 19,
     bandName: "NVM",
     work: "Engineered",
     player: (
@@ -227,7 +239,7 @@ export const albumData = [
     ),
   },
   {
-    id: 19,
+    id: 20,
     bandName: "Hey ILY",
     work: "Engineered Drums | Mixed",
     player: (
@@ -239,7 +251,7 @@ export const albumData = [
     ),
   },
   {
-    id: 20,
+    id: 21,
     bandName: "Anaconda Vise",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -251,7 +263,7 @@ export const albumData = [
     ),
   },
   {
-    id: 21,
+    id: 22,
     bandName: "Chairea",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -263,7 +275,7 @@ export const albumData = [
     ),
   },
   {
-    id: 22,
+    id: 23,
     bandName: "BWB Artist",
     work: "Guitars | Bass | Drums | Keys | Engineered | Mixed | Mastered",
     player: (
@@ -275,7 +287,7 @@ export const albumData = [
     ),
   },
   {
-    id: 23,
+    id: 24,
     bandName: "Chairea",
     work: "Engineered | Mixed",
     player: (
@@ -287,7 +299,7 @@ export const albumData = [
     ),
   },
   {
-    id: 24,
+    id: 25,
     bandName: "Treasure State",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -299,7 +311,7 @@ export const albumData = [
     ),
   },
   {
-    id: 25,
+    id: 26,
     bandName: "Anaconda Vise",
     work: "Live Recorded | Mixed | Mastered",
     player: (
@@ -311,7 +323,7 @@ export const albumData = [
     ),
   },
   {
-    id: 26,
+    id: 27,
     bandName: "NVM",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -323,7 +335,7 @@ export const albumData = [
     ),
   },
   {
-    id: 27,
+    id: 28,
     bandName: "Gray Joy",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -335,7 +347,7 @@ export const albumData = [
     ),
   },
   {
-    id: 28,
+    id: 29,
     bandName: "Dragged Out",
     work: "Engineered",
     player: (
@@ -347,7 +359,7 @@ export const albumData = [
     ),
   },
   {
-    id: 29,
+    id: 30,
     bandName: "Sky Drftr",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -359,7 +371,7 @@ export const albumData = [
     ),
   },
   {
-    id: 30,
+    id: 31,
     bandName: "Tom Russell",
     work: "Vocal Engineered",
     player: (
@@ -371,7 +383,7 @@ export const albumData = [
     ),
   },
   {
-    id: 31,
+    id: 32,
     bandName: "Hubba Hubba",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -383,7 +395,7 @@ export const albumData = [
     ),
   },
   {
-    id: 32,
+    id: 33,
     bandName: "Hubba Hubba",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -395,7 +407,7 @@ export const albumData = [
     ),
   },
   {
-    id: 33,
+    id: 34,
     bandName: "Tiny Iota",
     work: "Mixed | Mastered",
     player: (
