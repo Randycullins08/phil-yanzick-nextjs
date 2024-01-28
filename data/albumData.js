@@ -7,7 +7,7 @@ export const albumData = [
       <iframe
         title="DIRTBAG"
         style={{ border: "0", width: "350px", height: "470px" }}
-        src="https://open.spotify.com/embed/album/2lPUVrhiaCbXEQYHF6bWiK?utm_source=generator"
+        src="https://open.spotify.com/embed/album/2zO69o4QYkZGhlUl2nbVga?utm_source=generator"
       />
     ),
   },
