@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Player from "../components/Player";
 import { albumData } from "../data/albumData";
 
 export default function Portfolio() {
@@ -16,7 +17,9 @@ export default function Portfolio() {
             <div key={album.id}>
               <h3 className="band-name">Band Name: {album.bandName}</h3>
               <h3 className="band-name">Work Done: {album.work}</h3>
-              <div className="band-player">{album.player}</div>
+              <div className="band-player">
+                <Player src={album.src} />
+              </div>
             </div>
           ))}
         </div>
