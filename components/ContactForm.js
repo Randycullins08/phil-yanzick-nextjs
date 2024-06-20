@@ -4,10 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 
 export default function ContactForm() {
+  const initialFormData = {
+    from_name: "",
+    email: "",
+    message: "",
+  };
+
   const [status, setStatus] = useState("Submit");
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [formData, setFormData] = useState(initialFormData);
   const [isSending, setIsSending] = useState(false);
 
   const sendEmail = async (e) => {
@@ -19,19 +23,13 @@ export default function ContactForm() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        name,
-        email,
-        message,
-      }),
+      body: JSON.stringify(formData),
     })
       .then((res) => {
         if (res.status === 200) {
           setStatus("Email has been sent!");
           setIsSending(false);
-          setName("");
-          setEmail("");
-          setMessage("");
+          setFormData(initialFormData);
           setStatus("Submit");
         }
       })
@@ -44,6 +42,12 @@ export default function ContactForm() {
       });
   };
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
   return (
     <form onSubmit={sendEmail} className="contact-form">
       <div>
@@ -52,8 +56,8 @@ export default function ContactForm() {
           id="from_name"
           name="from_name"
           placeholder="Enter Your Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
+          value={formData.from_name}
+          onChange={handleChange}
           required
         />
       </div>
@@ -64,8 +68,8 @@ export default function ContactForm() {
           id="email"
           name="email"
           placeholder="Enter Your Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          value={formData.email}
+          onChange={handleChange}
           required
         />
       </div>
@@ -76,8 +80,8 @@ export default function ContactForm() {
           id="message"
           rows={10}
           placeholder="Enter Your Message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
+          value={formData.message}
+          onChange={handleChange}
           required
         />
       </div>
