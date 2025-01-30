@@ -1,11 +1,14 @@
 import { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Player from "../components/Player";
 import { albumData } from "../data/albumData";
+import AlbumData from "../components/AlbumData";
 
 export default function Portfolio() {
   const [carouselIndex, setCarouselIndex] = useState(0);
+  const itemsPerPage = 3;
+
+  const maxIndex = Math.ceil();
 
   const handlePrev = () => {
     setCarouselIndex((prev) => Math.max(prev - 3, 0));
@@ -25,17 +28,7 @@ export default function Portfolio() {
           <h1>Portfolio</h1>
         </div>
 
-        <div className="portfolio-content">
-          {albumData.slice(0, 3).map((album) => (
-            <div key={album.id}>
-              <h3 className="band-name">Band Name: {album.bandName}</h3>
-              <h3 className="band-name">Work Done: {album.work}</h3>
-              <div className="band-player">
-                <Player src={album.src} />
-              </div>
-            </div>
-          ))}
-        </div>
+        <AlbumData albumData={albumData} />
 
         <div className="carousel-container">
           <button onClick={handlePrev} className="carousel-arrow left">
@@ -45,10 +38,7 @@ export default function Portfolio() {
           <div className="carousel">
             {carouselItems.map((album) => (
               <div key={album.id} className="carousel-item">
-                <img
-                  src="https://source.unsplash.com/random/?city,night"
-                  alt={album.bandName}
-                />
+                <img src="https://picsum.photos/100/100" alt={album.bandName} />
               </div>
             ))}
 
